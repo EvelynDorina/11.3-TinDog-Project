@@ -1,0 +1,159 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  background-color: #e9ecef;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 2vw;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.header {
+  width: 100%;
+  height: fit-content;
+  padding-top: 10vh;
+}
+.header-description {
+  margin-top: auto;
+  margin-bottom: 10%;
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.header-image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-lg {
+  margin: 10px;
+}
+.btn-light {
+  margin-left: 0px;
+}
+
+.feature-section {
+  height: fit-content;
+  /* width: 30%; */
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.feature-header {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+
+.feature-content {
+  width: 25%;
+}
+.testimonial {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+}
+.dog-image {
+  border-radius: 50%;
+  object-fit: fill;
+  width: 10vw;
+  height: 10vw;
+  margin-top: 5vh;
+}
+
+.logo-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: auto;
+}
+
+.logo-section > img {
+  /* width: 13%; */
+  height: 30px;
+}
+
+.pricing {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  padding-top: 3vh;
+  padding-bottom: 6vh;
+}
+.card {
+  text-align: center;
+}
+
+.pricing-header {
+  text-align: center;
+  padding-top: 6vh;
+}
+.pricing-h2 {
+  font-size: 50px;
+}
+.sub-header {
+  color: grey;
+}
+.btn-pricing {
+  width: 100%;
+}
+
+.productor {
+  width: 30%;
+  padding-top: 5%;
+  margin-left: 5%;
+}
+
+.footer {
+  width: 100%;
+  height: 60vh;
+}
+
+.section-footer {
+  width: 60%;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.link-to-section {
+  text-transform: none;
+  text-decoration: none;
+
+  gap: 10px;
+}
+
+.text-body-secondary {
+  margin: 0px;
+}
